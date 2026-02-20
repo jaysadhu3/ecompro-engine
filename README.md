@@ -134,7 +134,7 @@ MIT License
 
 ## 👨‍💻 Author
 
-Developed by Jay Sadhu
+Developed by Jay Sadhu  
 Software Engineer | .NET & Angular Developer
 
 
