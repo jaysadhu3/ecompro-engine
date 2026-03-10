@@ -14,5 +14,8 @@ namespace ECommerce.API.DTOs
         public string? Description { get; set; }
 
         public string? ImageUrl { get; set; }
+
+        [Required]
+        public int CategoryId { get; set; }
     }
 }
