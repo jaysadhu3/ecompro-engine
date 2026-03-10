@@ -7,7 +7,7 @@ namespace ECommerce.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController : Controller
+    public class ProductsController : ControllerBase
     {
         private readonly IProductService _service;
         public ProductsController(IProductService service)

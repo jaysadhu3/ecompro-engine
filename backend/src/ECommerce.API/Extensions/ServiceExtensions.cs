@@ -15,9 +15,11 @@ namespace ECommerce.API.Extensions
 
             //Repositories
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             //Services
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICategoryService, CategoryService>();
 
             return services;
         }
